@@ -6,19 +6,19 @@
  app.use(cors());
  app.use(express.json());
 
- const db = mysql.createConnection({
-     user:"root",
-     host:"localhost",
-     password:"",
-     database:"employeesystem"
- });
-
 //  const db = mysql.createConnection({
-//     user:"admin",
-//     host:"db-minah.cryf0o6tynzo.ap-northeast-1.rds.amazonaws.com",
-//     password:"Minah123",
-//     database:"employeesystem"
-// });
+//      user:"root",
+//      host:"localhost",
+//      password:"",
+//      database:"employeesystem"
+//  });
+
+ const db = mysql.createConnection({
+    user:"admin",
+    host:"db-minah.cryf0o6tynzo.ap-northeast-1.rds.amazonaws.com",
+    password:"Minah123",
+    database:"employeesystem"
+});
 
 app.get("/", (req,res) =>
 {
