@@ -20,6 +20,13 @@
 //     database:"employeesystem"
 // });
 
+app.get("/", (req,res) =>
+{
+   console.log("haaldfasdfasaaaoooooooo")
+
+}
+);
+
  app.post("/create", (req,res) =>
      {
          const name = req.body.name;
@@ -43,8 +50,7 @@
 
  app.get("/halo", (req,res) =>
      {
-        console.log("haaloooooooo")
-        return "<h1>HAiiiiiiiiiiii</h1>"
+        res.json("halo")
      }
  );
 
