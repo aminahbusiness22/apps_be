@@ -48,11 +48,7 @@ app.get("/", (req,res) =>
      }
  );
 
- app.get("/halo", (req,res) =>
-     {
-        res.json("halo")
-     }
- );
+ 
 
 
  app.get("/employees", (req,res) =>
