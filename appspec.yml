@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/happiapp
+    destination: /home/ec2-user/reactapp
 hooks:
   BeforeInstall:
     - location: scripts/before_install.sh
