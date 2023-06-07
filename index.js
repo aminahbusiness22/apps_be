@@ -13,6 +13,13 @@
      database:"employeesystem"
  });
 
+//  const db = mysql.createConnection({
+//     user:"admin",
+//     host:"db-minah.cryf0o6tynzo.ap-northeast-1.rds.amazonaws.com",
+//     password:"Minah123",
+//     database:"employeesystem"
+// });
+
  app.post("/create", (req,res) =>
      {
          const name = req.body.name;
