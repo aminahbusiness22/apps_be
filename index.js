@@ -22,7 +22,7 @@
 
 app.get("/", (req,res) =>
 {
-   console.log("haaldfasdfasaaaoooooooo")
+    res.json("Welcome")
 
 }
 );
