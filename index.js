@@ -34,6 +34,14 @@
      }
  );
 
+ app.get("/halo", (req,res) =>
+     {
+        console.log("haaloooooooo")
+        return "<h1>HAiiiiiiiiiiii</h1>"
+     }
+ );
+
+
  app.get("/employees", (req,res) =>
      {
          db.query('SELECT * FROM employees',
